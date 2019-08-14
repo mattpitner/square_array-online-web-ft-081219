@@ -2,13 +2,12 @@ array = [1,2,3]
 
 
 def square_array(array)
-  array2 = []
   array.each do |number|
-     number * number << array2
+     number * number
      
   end 
   
-  return array2
+  return square_array
 
   
 end
